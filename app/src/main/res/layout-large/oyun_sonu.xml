@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginRight="3dp"
+    android:layout_marginLeft="3dp"
+    android:layout_weight="6"
+    android:background="@color/colorBackground"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Alınan Puan"
+            android:textColor="#FFF"
+            android:textSize="28sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="28sp"
+            android:textColor="#FFF"
+            android:text="Yanlış Cevap"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Zorluk"
+            android:textColor="#FFF"
+            android:textSize="28sp"
+            />
+        <Button
+            android:id="@+id/btnYeniOyun"
+            android:text="Yeni Oyun"
+            android:textSize="28sp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_selector_giris"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/txtAlinanPuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NA"
+            android:textColor="#FFF"
+            android:layout_marginTop="8dp"
+            android:textSize="28sp"
+            />
+        <TextView
+            android:id="@+id/txtYanlisCevap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NA"
+            android:textSize="28sp"
+            android:textColor="#FFF"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/txtZorlukSeviyesi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NA"
+            android:layout_marginTop="8dp"
+            android:textColor="#FFF"
+            android:textSize="28sp"
+            />
+        <Button
+            android:id="@+id/btnAnaMenu"
+            android:text="Ana Menu"
+            android:textSize="28sp"
+            android:background="@drawable/button_selector_giris"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

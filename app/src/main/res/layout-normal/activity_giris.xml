@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view.GirisActivity"
+    android:background="@color/colorBackground">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/bgcolorpuan"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textAnaMenu"
+            android:text="Toplam Puan : "
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:id="@+id/txtGenelPuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NA"
+            android:textColor="#FFF"
+            android:textSize="24sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/bgcolorseviye"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txtseviyecolor"
+            android:text="Seviye : "
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:id="@+id/txtSeviye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NA"
+            android:textColor="#FFF"
+            android:textSize="24sp"
+            />
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/txt4Kelime1Cevap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 KELİME 1 CEVAP"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/color4kelime1cevap"
+        android:fontFamily="serif"
+        android:layout_marginBottom="32dp"
+
+        />
+    <Button
+        android:id="@+id/btnOyna"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Oyna"
+        android:background="@drawable/button_selector_giris"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btnAyarlar"
+        android:layout_width="150dp"
+        android:text="Ayarlar"
+        android:background="@drawable/button_selector_giris"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        />
+    <Button
+        android:id="@+id/btnCikisYap"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Çıkış"
+        android:background="@drawable/button_selector_giris"
+        android:textAllCaps="false"
+        android:layout_marginTop="8dp"
+        />
+
+
+</LinearLayout>
+</LinearLayout>

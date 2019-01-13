@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">4Kelime1Cevap</string>
+    <string name="strKategori">Kategori</string>
+    <string name="strSecenek1">Secenek1</string>
+    <string name="strSecenek2">Secenek2</string>
+    <string name="strSecenek3">Secenek3</string>
+    <string name="strSecenek4">Secenek4</string>
+    <string name="strIpucu1">Ipucu1</string>
+    <string name="strIpucu2">Ipucu2</string>
+    <string name="strIpucu3">Ipucu3</string>
+    <string name="strIpucu4">Ipucu4</string>
+
+</resources>

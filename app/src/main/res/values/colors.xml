@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#272c3e</color>
+    <color name="buttonPressed">#f3c83b</color>
+    <color name="textAnaMenu">#f9ab13</color>
+    <color name="ktgrisporbgcolor">#8bc601</color>
+    <color name="ktgritarihbgcolor">#e4ba4b</color>
+    <color name="ktgrigenelkultur">#ecc6a8</color>
+    <color name="ktgricografya">#00d5ca</color>
+    <color name="ktgribilim">#ff3677</color>
+    <color name="ktgrisinema">#e4ff1e</color>
+    <color name="ipuclaritxtcolor">#353535</color>
+    <color name="secenekbtncolor">#d3ecb1</color>
+    <color name="bgcolorseviye">#f28601</color>
+    <color name="txtseviyecolor">#c40707</color>
+    <color name="bgcolorpuan">#c40707</color>
+    <color name="color4kelime1cevap">#94c410</color>
+</resources>
